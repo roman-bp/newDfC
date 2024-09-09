@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати студента</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="backToMain">Повернутись на головну</button>
+            <h1>Додати нового студента</h1>
+        </header>
+
+        <form id="studentForm">
+            <!-- Всі поля форми -->
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="age">Дата народження:</label>
+            <input type="date" id="age" required><br><br>
+
+            <label for="class">Клас:</label>
+            <input type="text" id="class" required><br><br>
+
+            <label for="address">Адреса:</label>
+            <input type="text" id="address" required><br><br>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" required><br><br>
+
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="notes">Примітки:</label>
+            <textarea id="notes"></textarea><br><br>
+
+            <label for="files">Файли:</label>
+            <input type="file" id="files" multiple><br><br>
+
+            <label for="photo">Фото:</label>
+            <input type="file" id="photo"><br><br>
+
+            <button type="submit">Додати студента</button>
+        </form>
+
+        <button id="clearJson">Очистити JSON</button>
+      
+
+        <h3>Збережений JSON:</h3>
+        <pre id="jsonOutput"></pre>
+
+        <script src="add_student.js"></script>
+    </div>
+</body>
+</html>

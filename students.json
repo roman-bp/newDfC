@@ -1,0 +1,145 @@
+[
+    {
+      "id": 1,
+      "name": "Данилюк Роман Олександрович",
+      "age": "27.11.1982",
+      "class": "MED",
+      "photo": "images/ja.jpg",
+      "address": " 07400 Бровари, Незалежності 15/199",
+      "phone": "+380675099283",
+      "email": "romanbp@ukr.net",
+      "notes": "",
+      "files": [
+        "docs/влкБровари.pdf",
+
+         "docs/професійного відбору кандидата.pdf",
+        "docs/висновокКардіолог.pdf","docs/довідкаВлкБровари.pdf"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Данилюк Роман Олександрович",
+      "age": "27.11.1982",
+      "class": "DOCS",
+      "photo": "images/ja.jpg",
+      "address": " 07400 Бровари, Незалежності 15/199",
+      "phone": "+380675099283",
+      "email": "romanbp@ukr.net",
+      "notes": "",
+      "files": [
+        "docs/свідПроСтрах.pdf", "docs/реестрМайнПрав.pdf","docs/індифікаційний.pdf",
+         "docs/паспорт.pdf"
+       
+      ]
+    },
+       {
+      "id": 2,
+      "name": "Данилюк Роман Олександрович",
+      "age": "27.11.1982",
+      "class": "ARMY",
+      "photo": "images/ja.jpg",
+      "address": " 07400 Бровари, Незалежності 15/199",
+      "phone": "+380675099283",
+      "email": "romanbp@ukr.net",
+      "notes": "",
+      "files": [
+        "docs/війсковийКвиток.pdf",
+         "docs/складСімї.pdf",
+         "docs/на одержання особистої зброї.pdf",
+         "docs/на_жилу_площу_ліжко_місце_в_Готелі.pdf",
+          "docs/картаОзк.pdf",
+        "docs/приписне.pdf", 
+        "docs/наклПротигаз.pdf",
+         "docs/наклНабої.pdf","docs/наклАвт.pdf",
+          "docs/витягЗнаказу.pdf","docs/Витяг з послужного списку",
+           "docs/довідкаФ5.pdf",
+            "docs/анкетаПалатка.pdf"
+
+      ]
+    },
+    {
+      "id": 1725681705094,
+      "name": "Іван Микитюк",
+      "age": "1982-10-11",
+      "class": "ARMY",
+      "address": "yudbwudb",
+      "phone": "+380670001010`",
+      "email": "romanbp2@ukr.net",
+      "notes": "",
+      "files": [
+        ""
+      ]
+    },
+    {
+      "id": 1725681733631,
+      "name": "Іван Микитюк3",
+      "age": "1982-10-11",
+      "class": "ARMY",
+      "address": "yudbwudb",
+      "phone": "+380670001010`",
+      "email": "romanbp2@ukr.net",
+      "notes": "",
+      "files": [
+        ""
+      ]
+    },
+    {
+      "id": 1725682103806,
+      "name": "кепкп",
+      "age": "2024-09-05",
+      "class": "ARMY",
+      "address": "Независимости15 /199",
+      "phone": "0675099283",
+      "email": "romanbp@ukr.net",
+      "notes": "",
+      "files": [
+        "pasport.pdf",
+        "reestr_main_prav.pdf",
+        "svit_pro_strah.pdf"
+      ]
+    },
+    {
+      "id": 1725682478762,
+      "name": "Роман Данилюк",
+      "age": "2024-08-26",
+      "class": "ARMY",
+      "address": "Независимости15 /199",
+      "phone": "0675099283",
+      "email": "romanbp@ukr.net",
+      "notes": "",
+      "files": [
+        "docs/довідкаФ5.pdf",
+            "docs/анкетаПалатка.pdf"
+      ]},
+      {
+        "id": 1725683282616,
+        "name": "Роман Данилюк",
+        "age": "2024-09-02",
+        "class": "ARMY",
+        "address": "Независимости15 /199",
+        "phone": "0675099283",
+        "email": "romanbp@ukr.net",
+        "notes": "",
+        "files": [
+          "docs/indifikatsiyniy.pdf",
+          "docs/pasport.pdf",
+          "docs/reestr_main_prav.pdf"
+        ],
+        "photo": "images/ja.jpg"
+      },
+      {
+        "id": 1725683472724,
+        "name": "Роман Данилюк",
+        "age": "2024-09-25",
+        "class": "ARMY",
+        "address": "Независимости15 /199",
+        "phone": "0675099283",
+        "email": "romanbp@ukr.net",
+        "notes": "",
+        "files": [
+          "docs/Витяг з послужного списку.pdf",
+          "docs/витягЗнаказу.pdf"
+        ],
+        "photo": "images/ja.jpg"
+      }
+  ]

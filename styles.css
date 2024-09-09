@@ -1,0 +1,209 @@
+:root {
+    /* Основні кольори */
+    --primary-color: #1823e5;
+    --primary-hover-color: #262744;
+    --secondary-color: #afa871;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --header-text-color: #cac281;
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
+
+    /* Шрифти */
+    --font-family: Arial, sans-serif;
+    --font-size-large: 2.5em;
+    --font-size-medium: 1.2em;
+    --font-size-small: 0.9em;
+    --font-size-button: 0.85em;
+    
+    /* Відступи */
+    --padding-small: 5px;
+    --padding-medium: 10px;
+    --padding-large: 20px;
+
+    /* Інші параметри */
+    --border-radius-small: 5px;
+    --border-radius-large: 10px;
+    --box-shadow: 0 0 10px rgba(203, 212, 174, 0.1);
+}
+
+/* Основні стилі */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding-large);
+}
+
+header {
+    text-align: center;
+    margin-bottom: var(--padding-large);
+}
+
+header h1 {
+    font-size: var(--font-size-large);
+    color: var(--header-text-color);
+}
+
+#classes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.class-link {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: var(--padding-medium);
+    margin: var(--padding-small);
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-size-medium);
+    display: block;
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.class-link:hover {
+    background-color: var(--primary-hover-color);
+}
+
+/* Студентські картки */
+.students-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.student-card {
+    background-color: var(--secondary-color);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius-large);
+    padding: var(--padding-small);
+    box-shadow: var(--box-shadow);
+    width: calc(25% + 45px);
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.student-card:hover {
+    transform: scale(1.03);
+}
+
+.student-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: var(--padding-medium);
+}
+
+.student-card h2 {
+    margin: var(--padding-small) 0;
+    font-size: 15px;
+    color: #0e103b;
+}
+
+.student-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.student-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.student-card ul li {
+    margin: var(--padding-small) 0;
+}
+
+.student-card ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.student-card ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Модальне вікно */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: var(--padding-large);
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: var(--border-radius-large);
+}
+
+.modal-content p {
+    text-decoration-line: underline;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Кнопки */
+button {
+    padding: var(--padding-small) var(--padding-medium);
+    font-size: var(--font-size-button);
+    color: white;
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: var(--border-radius-small);
+    cursor: pointer;
+    margin-top: var(--padding-small);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+#clearJson, #backToMain {
+    margin-top: var(--padding-small);
+}
+
+#jsonOutput {
+    margin-top: var(--padding-small);
+    padding: var(--padding-small);
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-size-small);
+}
