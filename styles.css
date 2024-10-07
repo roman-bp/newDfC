@@ -147,6 +147,7 @@ header h1 {
 
 /* Модальне вікно */
 .modal {
+    font-family: 'Arial', sans-serif; /* Шрифт для всього вікна */
     display: none;
     position: fixed;
     z-index: 1;
@@ -168,7 +169,7 @@ header h1 {
     border-radius: 10px;
 }
 
-.modal-content p {
+modal-content p {
     text-decoration-line: underline;
 }
 

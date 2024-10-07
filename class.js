@@ -22,6 +22,17 @@ function createStudentCard(student) {
     name.textContent = student.name;
     card.appendChild(name);
 
+    // Додавання іконки телефону
+    const phoneIcon = document.createElement('a');
+    phoneIcon.href = `tel:${student.phone}`;
+    phoneIcon.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="green" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.1-.23 9.43 9.43 0 003.24.61c.55 0 1 .45 1 1v3.5c0 .55-.45 1-1 1C9.39 21 3 14.61 3 6.5c0-.55.45-1 1-1H7.5c.55 0 1 .45 1 1 0 1.13.2 2.23.61 3.24.14.32.07.7-.23 1.1l-2.2 2.2z"/>
+        </svg>
+    `;
+    card.appendChild(phoneIcon);
+
     card.addEventListener('click', () => {
         showModal(student);
     });
@@ -48,10 +59,10 @@ function showModal(student) {
     const modalBody = document.getElementById('modal-body');
     modalBody.innerHTML = `
         <h2>${student.name}</h2>
-        <p>Вік: ${student.age}</p>
+        <p>Дата народження: ${student.age}</p>
         <p>Розділ: ${student.class}</p>
         <p>Адреса: ${student.address}</p>
-        <p>Телефон: ${student.phone}</p>
+        <p>Телефон: <a href="tel:${student.phone}">${student.phone}</a></p> <!-- Додаємо посилання на дзвінок -->
         <p>Email: ${student.email}</p>
         <p>Примітки: ${student.notes}</p>
         <ul>
