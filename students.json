@@ -15,6 +15,36 @@
           "docs/svit_pro_strah.pdf"
         ],
         "photo": "images/ja.jpg"
+      },
+      {
+        "id": 1725903688231,
+        "name": "Данилюк Роман Олександрович",
+        "age": "1982-11-27",
+        "class": "бізнеспартнерство",
+        "address": "Бровари",
+        "phone": "0675099283",
+        "email": "romanbp@ukr.net",
+        "notes": "",
+        "files": [
+          "docs/indifikatsiyniy.pdf",
+          "docs/svit_pro_strah.pdf"
+        ],
+        "photo": "images/ja.jpg"
+      },
+      {
+        "id": 1725903688231,
+        "name": "Данилюк Роман Олександрович",
+        "age": "1982-11-27",
+        "class": "бізнеспартнерство",
+        "address": "Бровари",
+        "phone": "0675099283",
+        "email": "romanbp@ukr.net",
+        "notes": "",
+        "files": [
+          "docs/indifikatsiyniy.pdf",
+          "docs/svit_pro_strah.pdf"
+        ],
+        "photo": "images/ja.jpg"
       }
     
   ]
